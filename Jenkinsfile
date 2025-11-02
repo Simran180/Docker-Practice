@@ -23,6 +23,12 @@ pipeline {
                 sh 'echo "Deploy step completed"'
             }
         }
+        stage('Check Webhook') {
+            steps {
+                echo 'Checked'
+                sh 'echo "Checked"'
+            }
+        }
     }
     
     post {
