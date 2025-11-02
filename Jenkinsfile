@@ -11,7 +11,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                echo 'Testing...'
+                echo 'Testing..'
                 sh 'echo "Test step completed"'
                 sh 'git ls-remote --heads origin'
             }
