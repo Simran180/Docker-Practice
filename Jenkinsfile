@@ -19,12 +19,12 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                echo 'Deploying...'
+                echo 'Deploying..'
                 sh 'echo "Deploy step completed"'
             }
         }
     }
-    
+
     post {
         success {
             echo 'Pipeline completed successfully!'
