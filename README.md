@@ -8,3 +8,7 @@ Creating this repository to learn about Docker
 3) Containerized Apache Web server, folder: Apache-Docker
     command: docker build -t "image-name" .
     docker run -p 5000:80 "image-name"
+
+3) Containerized Nginx Web server, folder: Nginx-Docker
+    command: docker build -t "image-name" .
+    docker run -p 5000:80 "image-name"
