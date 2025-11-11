@@ -9,6 +9,11 @@ Creating this repository to learn about Docker
     command: docker build -t "image-name" .
     docker run -p 5000:80 "image-name"
 
+<<<<<<< Updated upstream
 3) Containerized Nginx Web server, folder: Nginx-Docker
     command: docker build -t "image-name" .
     docker run -p 5000:80 "image-name"
+=======
+4) Containerized Simple Python Flask Application
+5) Containerized Simple Node.js Application: Used Docker optimization technique called layer caching. Copy package.json and run npm install first then copy other things so that if you change anything in files: It changes the COPY . . layer and npm install doesn't run again and again.
+>>>>>>> Stashed changes
